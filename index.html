@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculadora de nota</title>
+  <meta name="description" content="Calculadora de respuestas con penalización de fallos de 1/3.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__content">
+      <p class="eyebrow">Calculadora pública</p>
+      <h1>Calculadora de nota</h1>
+      <p class="lead">
+        Introduce tus respuestas, elige una corrección y calcula aciertos, fallos,
+        no contestadas y nota con penalización de 1/3 por fallo.
+      </p>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="panel controls" aria-labelledby="config-title">
+      <div class="section-title">
+        <h2 id="config-title">Configuración</h2>
+        <span id="dataStatus" class="badge">Cargando respuestas…</span>
+      </div>
+
+      <div class="form-grid">
+        <label>
+          Corrección
+          <select id="platformSelect"></select>
+        </label>
+
+        <label>
+          Escala principal
+          <select id="scaleSelect">
+            <option value="10">Sobre 10</option>
+            <option value="60">Sobre 60</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="button-row">
+        <button id="calculateBtn" type="button">Calcular nota</button>
+        <button id="resetBtn" type="button" class="secondary">Limpiar respuestas</button>
+        <button id="exportBtn" type="button" class="secondary">Descargar resultados CSV</button>
+      </div>
+
+      <details class="paste-box">
+        <summary>Pegar respuestas en bloque</summary>
+        <p>
+          Puedes pegar 90 letras seguidas, por ejemplo <code>ABCD--A...</code>,
+          o respuestas separadas por espacios, comas o saltos de línea.
+        </p>
+        <textarea id="bulkInput" rows="5" placeholder="Ejemplo: A B C D - A C ..."></textarea>
+        <div class="button-row">
+          <button id="applyBulkBtn" type="button" class="secondary">Aplicar respuestas pegadas</button>
+        </div>
+      </details>
+
+      <details class="data-box">
+        <summary>Cargar otro JSON o CSV de correcciones</summary>
+        <p>
+          Esto carga el archivo solo en tu navegador. Para cambiar la web pública,
+          sustituye <code>data/respuestas.json</code> en GitHub y haz commit.
+        </p>
+        <input id="dataFileInput" type="file" accept=".json,.csv,text/csv,application/json">
+        <p class="hint">
+          CSV mínimo: <code>numero,ChatGPT,Gemini,ConsigueTuOpo</code>.
+        </p>
+      </details>
+    </section>
+
+    <aside class="panel summary" aria-live="polite">
+      <div class="section-title">
+        <h2>Resultado</h2>
+        <span id="questionCount" class="badge">0 preguntas</span>
+      </div>
+
+      <div class="score-card">
+        <span id="scoreLabel">Nota sobre 10</span>
+        <strong id="mainScore">—</strong>
+      </div>
+
+      <div class="metrics">
+        <div>
+          <span>Aciertos</span>
+          <strong id="correctCount">—</strong>
+        </div>
+        <div>
+          <span>Fallos</span>
+          <strong id="wrongCount">—</strong>
+        </div>
+        <div>
+          <span>No contestadas</span>
+          <strong id="blankCount">—</strong>
+        </div>
+        <div>
+          <span>Puntuación neta</span>
+          <strong id="rawScore">—</strong>
+        </div>
+      </div>
+
+      <p id="resultNote" class="hint">La nota se actualizará al calcular.</p>
+    </aside>
+
+    <section class="panel answers-panel">
+      <div class="section-title">
+        <h2>Respuestas</h2>
+        <div class="legend">
+          <span>A/B/C/D: contestada</span>
+          <span>—: en blanco</span>
+        </div>
+      </div>
+      <div id="questionsGrid" class="questions-grid"></div>
+    </section>
+  </main>
+
+  <template id="questionTemplate">
+    <div class="question-card">
+      <div class="question-number"></div>
+      <div class="options" role="radiogroup"></div>
+    </div>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

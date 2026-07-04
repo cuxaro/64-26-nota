@@ -1,0 +1,553 @@
+{
+  "titulo": "C1-04-03",
+  "descripcion": "Plantilla de corrección importada desde el Excel original.",
+  "opciones": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "penalizacion": 0.3333333333333333,
+  "preguntas": [
+    {
+      "numero": 1,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 2,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 3,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 4,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 5,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 6,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 7,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 8,
+      "ChatGPT": "D",
+      "Gemini": "D",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 9,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 10,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 11,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 12,
+      "ChatGPT": "D",
+      "Gemini": "D",
+      "ConsigueTuOpo": "D"
+    },
+    {
+      "numero": 13,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 14,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 15,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 16,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 17,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 18,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 19,
+      "ChatGPT": "D",
+      "Gemini": "D",
+      "ConsigueTuOpo": "D"
+    },
+    {
+      "numero": 20,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 21,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 22,
+      "ChatGPT": "D",
+      "Gemini": "D",
+      "ConsigueTuOpo": "D"
+    },
+    {
+      "numero": 23,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 24,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 25,
+      "ChatGPT": "B",
+      "Gemini": "A",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 26,
+      "ChatGPT": "A",
+      "Gemini": "B",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 27,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 28,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 29,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 30,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 31,
+      "ChatGPT": "D",
+      "Gemini": "D",
+      "ConsigueTuOpo": "D"
+    },
+    {
+      "numero": 32,
+      "ChatGPT": "D",
+      "Gemini": "B",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 33,
+      "ChatGPT": "D",
+      "Gemini": "D",
+      "ConsigueTuOpo": "D"
+    },
+    {
+      "numero": 34,
+      "ChatGPT": "B",
+      "Gemini": "D",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 35,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 36,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 37,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 38,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 39,
+      "ChatGPT": "D",
+      "Gemini": "D",
+      "ConsigueTuOpo": "D"
+    },
+    {
+      "numero": 40,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 41,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 42,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 43,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 44,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 45,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 46,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 47,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 48,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 49,
+      "ChatGPT": "D",
+      "Gemini": "D",
+      "ConsigueTuOpo": "D"
+    },
+    {
+      "numero": 50,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 51,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 52,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 53,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 54,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 55,
+      "ChatGPT": "A",
+      "Gemini": "C",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 56,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 57,
+      "ChatGPT": "D",
+      "Gemini": "D",
+      "ConsigueTuOpo": "D"
+    },
+    {
+      "numero": 58,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 59,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 60,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 61,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 62,
+      "ChatGPT": "D",
+      "Gemini": "D",
+      "ConsigueTuOpo": "D"
+    },
+    {
+      "numero": 63,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 64,
+      "ChatGPT": "D",
+      "Gemini": "D",
+      "ConsigueTuOpo": "D"
+    },
+    {
+      "numero": 65,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 66,
+      "ChatGPT": "A",
+      "Gemini": "C",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 67,
+      "ChatGPT": "D",
+      "Gemini": "D",
+      "ConsigueTuOpo": "D"
+    },
+    {
+      "numero": 68,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 69,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 70,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 71,
+      "ChatGPT": "D",
+      "Gemini": "D",
+      "ConsigueTuOpo": "D"
+    },
+    {
+      "numero": 72,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 73,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 74,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 75,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 76,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 77,
+      "ChatGPT": "D",
+      "Gemini": "D",
+      "ConsigueTuOpo": "D"
+    },
+    {
+      "numero": 78,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 79,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 80,
+      "ChatGPT": "D",
+      "Gemini": "D",
+      "ConsigueTuOpo": "D"
+    },
+    {
+      "numero": 81,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 82,
+      "ChatGPT": "D",
+      "Gemini": "D",
+      "ConsigueTuOpo": "D"
+    },
+    {
+      "numero": 83,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 84,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 85,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 86,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    },
+    {
+      "numero": 87,
+      "ChatGPT": "C",
+      "Gemini": "C",
+      "ConsigueTuOpo": "C"
+    },
+    {
+      "numero": 88,
+      "ChatGPT": "A",
+      "Gemini": "A",
+      "ConsigueTuOpo": "A"
+    },
+    {
+      "numero": 89,
+      "ChatGPT": "D",
+      "Gemini": "D",
+      "ConsigueTuOpo": "D"
+    },
+    {
+      "numero": 90,
+      "ChatGPT": "B",
+      "Gemini": "B",
+      "ConsigueTuOpo": "B"
+    }
+  ]
+}
