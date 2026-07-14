@@ -76,9 +76,6 @@
     if (total === 0) {
       throw new Error('El examen debe tener al menos una pregunta.');
     }
-    if (annulled < 1) {
-      throw new Error('El número de impugnadas debe ser al menos 1.');
-    }
     if (annulled >= total) {
       throw new Error('Las preguntas impugnadas deben ser menos que el total del examen.');
     }
